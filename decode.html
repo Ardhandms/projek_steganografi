@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography Encoder & Decoder</title>
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="./encode.html">Encoder</a></li>
+        <li><a href="#Decoder">Decoder</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1 class="stega">Steganografi Pesan Rahasia Gambar</h1>
+    <div class="container">
+        <div id="Decoder">
+            <h1>Steganograpi Decoder</h1>
+            <input type="file" id="fileInputDecode">
+            <div id="output" style="color: rgba(0, 0, 0, 0.5);">
+                <span id="placeholdertext" style="opacity: 0.5;">Hasil Decode akan tampil disini</span>
+            </div>
+            <div class="form-group">
+              <button id="decodeButton">Decode</button>
+              <button id="resetButtonDecode">Reset</button>
+            </div>
+        </div>
+    </div>
+  </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+  height: 20px; 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#output {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-height: 100px;
+  overflow: auto;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-group button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Tombol Encode */
+#encodeButton {
+  background-color: #FF5733; /* Warna merah */
+  color: #fff;
+}
+
+#encodeButton:hover {
+  background-color: #FF7043; /* Warna merah yang lebih terang saat hover */
+}
+
+/* Tombol Decode */
+#decodeButton {
+  background-color: #4CAF50; /* Warna hijau */
+  color: #fff;
+}
+
+#decodeButton:hover {
+  background-color: #66BB6A; /* Warna hijau yang lebih terang saat hover */
+}
+
+/* Kotak Pesan Rahasia */
+#messageInput {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 50px; /* Menambahkan tinggi kotak pesan rahasia */
+}
+
+.stega {
+  align-items: center;
+  text-align: center;
+  margin-top: 45px;
+}
